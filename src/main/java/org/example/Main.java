@@ -15,9 +15,9 @@ public class Main {
         */
         private static void getNameFromGui() {
             // This can be marked as private because it is being used within the same class.
-            Scanner Name = new Scanner(System.in);
             String name = JOptionPane.showInputDialog("What is your name?");
             System.out.println(name);
             System.out.println("Hello " +name);
+
     }
 }
