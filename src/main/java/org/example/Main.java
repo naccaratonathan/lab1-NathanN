@@ -11,10 +11,10 @@ public class Main {
         String name = JOptionPane.showInputDialog("What is your name?");
         System.out.println(name);
         return name;
-
+     // This can be marked as private because it is being used within the same class.
     }
     public static void printName(String name) {System.out.println("Hello, "+name+"!");}
-            // This can be marked as private because it is being used within the same class.
+
 
 
 
