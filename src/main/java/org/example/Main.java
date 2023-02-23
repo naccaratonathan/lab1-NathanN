@@ -1,6 +1,7 @@
 package org.example;
 
 import javax.swing.*;
+// Nathan
 /*
  Question 1, this would fail to run as the java file and class file have to be the same name
  Question 2, The main method must be declared as public static void so that the JVM is able to access the class.
